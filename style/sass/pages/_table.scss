@@ -38,4 +38,15 @@ body {
     input {
         cursor: pointer;
     }
+
+    // T A B L I C A
+    table {
+        width: 100%;
+        text-align: left;
+        
+        td, th {
+            padding: 1rem 0 1rem 0;
+            width: 10%;
+        }
+    }
 }
