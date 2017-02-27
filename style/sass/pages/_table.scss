@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1382px;
+
+    h2  {
+        margin: 2rem 0;
+    }
+
+    .row {
+        width: 100%;
+    }
+    
+    .item {
+        display: inline-block;
+        padding: 0 1rem 1rem 0;
+    }
+    
+    .item-left {
+        float: right;
+        padding-left: 1rem;
+        position: relative;
+        span {
+        position: absolute;
+        right: 20px;
+        top: 3px;
+        fill: #B1BEC4;
+        }
+    }
+
+    input {
+        cursor: pointer;
+    }
+}

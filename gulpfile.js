@@ -23,10 +23,10 @@ gulp.task('serve', ['sass'], () => {
     browserSync.init({
         server: {
             baseDir: "./",
-            index: "index.html"
+            index: "table.html"
         }
     });
 
     gulp.watch(config.sass, ['sass']);
-    gulp.watch('index.html').on('change', browserSync.reload);
+    gulp.watch('table.html').on('change', browserSync.reload);
 });
